@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-generator-nodejs",
+  "version": "1.0.0",
+  "description": "A js that generates a portfolio in htm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanDMello/portfolio-generator-nodejs.git"
+  },
+  "author": "Ethan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EthanDMello/portfolio-generator-nodejs/issues"
+  },
+  "homepage": "https://github.com/EthanDMello/portfolio-generator-nodejs#readme"
+}
