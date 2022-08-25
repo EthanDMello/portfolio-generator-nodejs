@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/EthanDMello/portfolio-generator-nodejs/issues"
   },
-  "homepage": "https://github.com/EthanDMello/portfolio-generator-nodejs#readme"
+  "homepage": "https://github.com/EthanDMello/portfolio-generator-nodejs#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "8.2.4"
+  }
 }
