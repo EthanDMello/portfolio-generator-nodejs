@@ -1,9 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const { error } = require("console");
 
 const generateHTML = (username, location, age) => {
-  `<!DOCTYPE html>
+  return `<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -27,7 +26,12 @@ inquirer
     { name: "age", message: "How old are you?", type: "input" },
   ])
   .then((response) => {
-    const text = generateHTML(response);
+    const text = generateHTML(
+      response.username,
+      response.location,
+      response.age
+    );
+    console.log(response);
     fs.writeFile("index.html", text, (err) => {
       err ? console.log(err) : console.log("Success");
     });
